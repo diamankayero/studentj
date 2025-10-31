@@ -1,0 +1,31 @@
+/* ===========================
+   Centrage global du contenu
+   =========================== */
+
+:root {
+  --doc-max-width: 867px;
+}
+
+.VPDoc,
+.VPContent,
+.VPHome,
+.VPHero {
+  max-width: var(--doc-max-width);
+  margin-left: auto !important;
+  margin-right: auto !important;
+  padding-left: 1rem;
+  padding-right: 1rem;
+}
+
+/* Fond général */
+body {
+  background-color: #f7f8fa;
+}
+
+/* Contenu du document : fond blanc et ombre douce */
+.VPDoc {
+  background-color: #ffffff;
+  border-radius: 12px;
+  box-shadow: 0 0 12px rgba(0, 0, 0, 0.05);
+  padding: 2rem;
+}
